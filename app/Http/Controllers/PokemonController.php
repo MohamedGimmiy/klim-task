@@ -30,7 +30,7 @@ class PokemonController extends Controller
             ]);
         }
 
-        return redirect('/');
+        return redirect('/api/pokemon');
     }
 
     public function pokemon()
